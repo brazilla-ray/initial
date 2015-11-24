@@ -1,0 +1,138 @@
+html,
+body		{
+		margin:0;
+		padding:0;
+		color:#000;
+		background:#fff;
+}
+
+.hidden		{
+		display:none;
+}
+
+#page		{
+		margin:0px auto;
+		padding:0;
+		max-width:14.75em;
+		overflow:scroll;
+		-webkit-overflow-scrolling:touch;
+}
+
+#nav-tabs		{
+		height:3.125em;
+		width:90.9%;
+		min-width:52.08%;
+		margin:0 auto;
+}
+
+.navTabs	{
+		width:100%;
+		height:100%;
+		font-size:0.75em;
+		text-align:justify;
+}
+
+.navTabs a	{
+		/*display:inline-block;*/
+		/*width:20%;*/
+		/*padding-right:16%;*/
+		/*height:50px;*/
+		/*float:left;*/
+		text-decoration:none;
+		color:black;
+		/*line-height:23px;*/
+}
+
+.navTabs div	{
+		width:auto;
+		display:inline-block;
+}
+
+.navTabs:after	{
+		content:'';
+		width:100%;
+		display:inline-block;
+}
+
+.hr hr		{
+		display:none;
+}
+
+#main-content	{
+		font-family: 'Bitter', serif;
+		margin:0 auto;
+		width:90.9%;
+		min-width:52.08%;
+		height:85%;
+}
+
+#frontpiece	{
+		/*width:100%;*/
+}
+
+/*#frontpiece img	{
+		width:100%;
+}*/
+
+
+/*#ss2013		{
+		width:100%;
+}*/
+
+.plate-arrows	{
+		display:none;
+}
+
+.plates		{
+		width:100%;
+}
+
+.plate-box	{
+		min-width:100%;
+		width:100%;
+}
+
+.plate		{
+		width:100%;
+}
+
+.plate-desc		{
+		float:left;
+		width:100%;
+		font-size:0.75em;
+}
+
+#statement	{
+		width:100%;
+		text-align:justify;
+		line-height:3em;
+		-moz-columns-count:1;
+		-webkit-column-count:1;
+		column-count:1;
+}
+
+/*#statement p:first-letter	{
+		font-size:1.25em;
+		font-weight:bold;
+		float:left;
+		margin-top:1em;
+		width:1.05em;
+		color:rgba(0,0,0,0.5);
+}*/
+
+#statement p:first-line	{
+		line-height:3em;
+}
+
+#statement p	{
+		margin-top:0px;
+		padding:0.5em;
+}
+
+#contact	{
+		width:95%;
+		text-align:justify;
+		text-justify:inter-word;
+		line-height:2em;
+}
+

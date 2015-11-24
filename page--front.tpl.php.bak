@@ -1,0 +1,10 @@
+<?php
+?>
+<div role="main" class="page">
+	<div class="GATEtitle">WILLIAM WHITAKER</div>
+	<div class="GATElinks">
+		<p><a id="LINKyears" href="images">images</a></p>
+		<p><a href="cv">cv</a></p>
+		<p><a href="contact">contact</a></p> 
+	</div> 
+</div>

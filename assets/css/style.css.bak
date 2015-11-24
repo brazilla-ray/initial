@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face	{
+	font-family: Bebas;
+	src: url('fonts/bebas.ttf');
+	font-weight: normal;
+}
+
+@font-face	{
+	font-family: "Courier Prime";
+	src: url('fonts/courier_prime.otf');
+	font-weight: normal;
+}
+
+.plate {
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 0 0 50px;
+}
+
+.arrows  {
+        position: relative;
+        height: 100px;
+        top: 110px;
+        /*width: 50px;*/
+}
+
+.plates  {
+        position: relative;
+        left: 100px;
+        bottom: 100px;
+        margin: 100px 0 0 0;
+}
+
+.desc   {
+        position: relative;
+	vertical-align: bottom;
+	line-height: 1.5em;
+	font-family: "Courier Prime";
+}
+
+#prev2, #next2  {
+        padding: 100px 30px 0 0;
+}
+
+.floatLeft      {
+        float: left;
+}
+
+.clearfix:before, .clearfix:after       {
+        content: ""; display: table;
+}
+
+.clearfix:after {
+        clear: both;
+}
+
+.clearfix       {
+        *zoom: 1;
+}
+
+.GATEtitle  {
+        position: relative;
+        height: 100px;
+        top: 110px;
+        width: 50%;
+	text-align: right;
+	font-family: Bebas;
+	font-size: 5em;
+	color: red ;
+}
+
+.GATEtitle a	{
+	text-decoration: none;
+	color: red;
+}
+
+.GATElinks  {
+        position: relative;
+        left: 100px;
+        bottom: 100px;
+        margin: 100px 0 0 0;
+	width: 50px;
+	text-align: left;
+	font-family: "Courier Prime";
+	font-size: 2em;
+	margin-left: 50%;
+}
+
+a		{
+	text-decoration: none;
+	color: black;
+}
+

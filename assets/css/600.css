@@ -1,0 +1,151 @@
+html,
+body		{
+		margin:0;
+		padding:0;
+		color:#000;
+		background:#fff;
+		height:100%;
+}
+
+.hidden		{
+		display:none;
+}
+
+#page		{
+		margin:40px auto;
+		padding:0 1em;
+		max-width:68.75em;
+		height:100%;
+}
+
+#nav-tabs		{
+		height:3.125em;
+		width:90.9%;
+		min-width:52.08%;
+		margin:0 auto;
+}
+
+.navTabs	{
+		width:100%;
+		height:100%;
+		text-align:justify;
+}
+
+.navTabs a	{
+		/*display:inline-block;*/
+		/*width:20%;*/
+		/*padding-right:16%;*/
+		/*height:50px;*/
+		/*float:left;*/
+		text-decoration:none;
+		color:black;
+		/*line-height:23px;*/
+}
+
+.navTabs div	{
+		width:auto;
+		display:inline-block;
+}
+
+.navTabs:after	{
+		content:'';
+		width:100%;
+		display:inline-block;
+}
+
+.hr hr		{
+		border-style:solid;
+		border-width:1px 0px 1px 0px;
+		border-color:rgba(0,0,0,0.15);
+		margin-bottom:3em;
+}
+
+#main-content	{
+		font-family: 'Bitter', serif;
+		overflow:hidden;
+		margin:0 auto;
+		width:90.9%;
+		min-width:52.08%;
+		height:100%;
+}
+
+#frontpiece	{
+		display:none;
+}
+
+img		{
+		max-width:100%;
+		height:auto;
+}
+
+/*#ss2013		{
+		width:100%;
+}*/
+
+.plate-arrows	{
+		width:5%;
+		float:left;
+}
+
+.plates		{
+		float:right;
+		width:95%;
+}
+
+.plate-box	{
+		width:100%;
+		/*min-width:950px;*/
+}
+
+.plate		{
+		float:left;
+		width:86.5%;
+}
+
+.plate-desc		{
+		text-align:left;
+		float:right;
+		width:13.5%;
+}
+
+#statement	{
+		width:100%;
+		text-align:justify;
+		line-height:3em;
+		-moz-columns:auto 2; /*firefox*/
+		-webkit-columns:auto 2; /*safari and chrome*/
+		columns:auto 2;
+		-moz-column-gap:9.5em; /*firefox*/
+		-webkit-column-gap:9.5em; /*safari and chrome*/
+		column-gap:9.5em;
+		margin-top:0px;
+		-moz-column-rule:3px double rgba(0,0,0,0.15); /*firefox*/
+		-webkit-column-rule:3px double rgba(0,0,0,0.15); /*safari and chrome*/
+		column-rule:3px double rgba(0,0,0,0.15);
+}
+
+/*#statement p:first-letter	{
+		font-size:1.25em;
+		font-weight:bold;
+		float:left;
+		margin-top:1em;
+		width:1.05em;
+		color:rgba(0,0,0,0.5);
+}*/
+
+#statement p:first-line	{
+		line-height:3em;
+}
+
+#statement p	{
+		margin-top:0px;
+		padding:0.5em;
+}
+
+#contact	{
+		width:95%;
+		text-align:justify;
+		text-justify:inter-word;
+		line-height:2em;
+}
+
