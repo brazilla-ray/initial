@@ -5,6 +5,7 @@ body		{
 		color:#000;
 		background:#fff;
 		height:100%;
+		font-family: 'Bitter', serif;
 }
 
 .hidden		{
@@ -61,26 +62,10 @@ body		{
 		margin-bottom:3em;
 }
 
-#main-content	{
-		font-family: 'Bitter', serif;
-		/*overflow:hidden;*/
-		margin:0 auto;
-		width:90.9%;
-		min-width:52.08%;
-		height:65%;
-}
-
-#frontpiece	{
-		/*width:100%;*/
-}
-
-/*#frontpiece img	{
-		width:100%;
-}*/
-
 img		{
-		max-width:100%;
-		/*height:auto;*/
+	max-width:100%;
+	margin: 0 auto;
+	display: block;
 }
 
 /*#ss2013		{
