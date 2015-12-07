@@ -2,10 +2,10 @@
 // Purge needless XHTML stuff.
 function initial_process_html_tag(&$vars) {
   $el = &$vars['element'];
- 
+
   // Remove type="..." and CDATA prefix/suffix.
   unset($el['#attributes']['type'], $el['#value_prefix'], $el['#value_suffix']);
- 
+
   // Remove media="all" but leave others unaffected.
   if (isset($el['#attributes']['media']) && $el['#attributes']['media'] === 'all') {
     unset($el['#attributes']['media']);
@@ -16,7 +16,7 @@ function initial_process_html_tag(&$vars) {
 function initial_js_alter(&$javascript) {
 	//set new path for jquery
   $jquery_path = drupal_get_path('theme','initial') . '/assets/js/jquery/jquery-1.10.2.min.js';
-	//information about jquery from drupal core 
+	//information about jquery from drupal core
   $javascript[$jquery_path] = $javascript['misc/jquery.js'];
 	//information for new version
   $javascript[$jquery_path]['version'] = '1.10.2';
@@ -31,14 +31,14 @@ function initial_preprocess_block(&$vars) {
   $classes = array();
   $title_classes = &$vars['title_attributes_array']['class'];
   $content_classes = &$vars['content_attributes_array']['class'];
- 
+
   /* Add global classes to all blocks */
   $title_classes[] = 'block-title';
   $content_classes[] = 'block-content';
- 
+
   /* Uncomment the line below to see variables you can use to target a field */
   #print $block_id . '<br/>';
- 
+
   /* Add classes based on the block delta. */
   switch ($block_id) {
     /* System Navigation block */
@@ -63,4 +63,8 @@ function initial_preprocess_image(&$variables)	{
 		unset($attributes[$key]);
 		unset($variables[$key]);
 	}
+}
+
+function initial_comment_view_alter(&$build) {
+  unset($build['#prefix']);
 }
