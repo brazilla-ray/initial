@@ -14,8 +14,30 @@ img	{
 	display: block;
 }
 
+a {
+	color: hsla(120, 2%, 50%, 1.0);
+	text-decoration: none;
+	padding: 0.25em .35em;
+}
+
+a:hover {
+	color: inherit;
+	background: hsla(120, 2%, 91%, 0.15);
+	border: 0 solid #fff;
+	border-radius: 15px;
+	box-shadow: 0 0.1em 0 0.1em hsla(0, 0%, 32%, 0.4)
+}
+
+ul {
+	list-style: none;
+}
+
 .hidden	{
 	display:none;
+}
+
+.title {
+	text-transform: uppercase;
 }
 
 .navTabs {
@@ -43,4 +65,19 @@ img	{
 .node-article {
 	max-width: 75%;
 	margin: 0 auto;
+	line-height: 2.25;
+	text-align: justify;
+}
+
+.submitted {
+	text-align: right;
+	font-size: 0.75em;
+	line-height: 1.25;
+	border-top: 0.15em solid #FF7F50;
+	padding: 1.25em 0;
+}
+
+.article-comments {
+	text-align: right;
+	font-size: 0.75em;
 }
