@@ -75,19 +75,19 @@
 
 <header role="banner">
     <?php if($page['header']): ?>
-	<div class="header-region">
-      	<?php print render($page['header']); ?>
-	</div>
+        <div class="header-region">
+            <?php print render($page['header']); ?>
+        </div>
     <?php endif; ?>
 </header>
 
 <div id="page">
     <?php if($page['nav_tabs']): ?>
-	<div id="nav-tabs">
-      	<?php print render($page['nav_tabs']); ?>
-	</div>
+        <div id="nav-tabs">
+            <?php print render($page['nav_tabs']); ?>
+        </div>
     <?php endif; ?>
-	<div id="main-content">
-      	<?php print render ($page['content']); ?>
-	</div>
+    <div id="main-content">
+        <?php print render ($page['content']); ?>
+    </div>
 </div>
