@@ -10,6 +10,6 @@
 * * *
 
 ###### Navigation
-  The `.info` file defines a region for site navigation links (`regions nav_tabs] = Navigation Tabs`). Create a block and place it in the `Navigation Tabs` region.
+  The `.info` file defines a region for site navigation links (`regions [nav_tabs] = Navigation Tabs`). Create a block and place it in the `Navigation Tabs` region.
 
   The markup for the navigation links should be placed in the body of the block. To make use of the **idTabs** jQuery plugin included with the theme, wrap the links in `<div class="navTabs">`.
