@@ -74,20 +74,20 @@
 ?>
 
 <header role="banner">
-<?php if($page['header']): ?>
+    <?php if($page['header']): ?>
 	<div class="header-region">
-  	<?php print render($page['header']); ?>
+      	<?php print render($page['header']); ?>
 	</div>
-<?php endif; ?>
+    <?php endif; ?>
 </header>
 
 <div id="page">
-<?php if($page['nav_tabs']): ?>
+    <?php if($page['nav_tabs']): ?>
 	<div id="nav-tabs">
-  	<?php print render($page['nav_tabs']); ?>
+      	<?php print render($page['nav_tabs']); ?>
 	</div>
-<?php endif; ?>
+    <?php endif; ?>
 	<div id="main-content">
-  	<?php print render ($page['content']); ?>
+      	<?php print render ($page['content']); ?>
 	</div>
 </div>
